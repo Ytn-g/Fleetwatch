@@ -1,0 +1,26 @@
+# Go
+bin/
+*.exe
+*.test
+*.out
+vendor/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Env / secrets
+.env
+*.pem
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Load test output and sample media
+loadtest/results/
+*.mp4
